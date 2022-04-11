@@ -1,4 +1,17 @@
-# apc-p1
+# CIC0004 - P1
 Project for my Algorithms class.
 
 Takes in class codes and the respective schedules, one by one, and prints out a nice time table, notifying the user if there are any schedulling collisions.
+
+# Usage
+
+Adding the class CIC0128B, for exemple: `+ CIC0128B 246T45`
+
+And then removing it: `- CIC0128B 246T45`
+
+Print the table: `?`
+
+To exit the program, just press enter or type in any random string.
+
+PS: class codes must be composed of 8 chars, or else the table wont render properly.
+
