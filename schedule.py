@@ -39,9 +39,10 @@ def printIt():
                 print("| "+hours[i]+" |", end="")
                 for x in range(6):
                     if (schedule[x][i]):
-                        print(" "+schedule[x][i]+" |", end="")
+                        var = (schedule[x][i]).center(10)
+                        print(var, end="|")
                     else:
-                        print("          |", end="")
+                        print("          ", end="|")
                 print()
                 print(tableRow)
             break
